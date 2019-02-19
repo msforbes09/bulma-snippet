@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<section class="section">
+    <div class="container">
+        ${0}
+    </div><!-- container -->
+</section><!-- section -->
+]]></content>
+    <tabTrigger>b-section</tabTrigger>
+</snippet>

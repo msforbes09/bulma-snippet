@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<p class="help is-${1:success}">${2:This username is available}</p>
+]]></content>
+    <tabTrigger>b-help</tabTrigger>
+</snippet>

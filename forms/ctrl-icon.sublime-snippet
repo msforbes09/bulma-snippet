@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<span class="icon is-small is-left">
+    <i class="fas fa-${1:user}"></i>
+</span><!-- icon -->
+
+<span class="icon is-small is-right">
+    <i class="fas fa-${2:check}"></i>
+</span><!-- icon -->
+]]></content>
+    <tabTrigger>b-icon</tabTrigger>
+</snippet>

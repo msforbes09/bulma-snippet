@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="field">
+    ${1}
+
+    <div class="control${2: has-icons-left has-icons-right}">
+        ${3}
+    </div><!-- control -->
+</div><!-- field -->
+]]></content>
+    <tabTrigger>b-field</tabTrigger>
+</snippet>
