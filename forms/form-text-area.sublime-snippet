@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<input class="input" type="${1:text}" id="${2}" value="${4}" placeholder="${3:Text input}">
-]]></content>
-    <tabTrigger>b-input</tabTrigger>
-</snippet>

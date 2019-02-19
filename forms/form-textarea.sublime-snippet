@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<textarea class="textarea" id="${1}" rows="${2:3}" placeholder="${3:Textarea}">${4}</textarea>
+]]></content>
+    <tabTrigger>b-textarea</tabTrigger>
+</snippet>
