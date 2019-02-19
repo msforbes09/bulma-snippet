@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <label class="checkbox">
-    <input type="checkbox" id="${1}" value="${2}"> ${3:Checkbox}
+    <input type="checkbox" id="${1}" ${2:checked}> ${3:Checkbox}
 </label>
 ]]></content>
     <tabTrigger>b-check</tabTrigger>
