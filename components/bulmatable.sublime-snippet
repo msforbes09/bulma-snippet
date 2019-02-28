@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<table class="table is-fullwidth is-bordered is-striped is-hoverable">
+    <thead>
+        <tr class="has-background-primary">
+            <th>${1:Title}</th>
+            <th>Title</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </tbody>
+</table>
+]]></content>
+    <tabTrigger>b-table</tabTrigger>
+</snippet>

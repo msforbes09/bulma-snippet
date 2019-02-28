@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<div class="modal is-active">
+    <div class="modal-background"></div>
+    
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Modal title</p>
+            <button class="delete" aria-label="close"></button>
+        </header><!-- modal-card-head -->
+
+        <section class="modal-card-body">
+            ${0}
+        </section><!-- modal-card-body -->
+        
+        <footer class="modal-card-foot">
+            <button class="button">Okay</button>
+        </footer><!-- modal-card-foot -->
+    </div><!-- modal-card -->
+</div><!-- modal -->
+]]></content>
+    <tabTrigger>b-modal</tabTrigger>
+</snippet>
