@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="tabs">
+    <ul>
+        <li class="is-active"><a>${1:Pictures}</a></li>
+
+        <li><a>Music</a></li>
+    </ul>
+</div><!-- tabs -->
+]]></content>
+    <tabTrigger>b-tabs</tabTrigger>
+</snippet>
