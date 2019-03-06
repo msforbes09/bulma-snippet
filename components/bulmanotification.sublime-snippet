@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<div class="notification is-danger">
+    <button class="delete"></button>
+
+    ${1}
+</div><!-- notification -->
+]]></content>
+    <tabTrigger>b-notification</tabTrigger>
+</snippet>
