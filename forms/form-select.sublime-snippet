@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <div class="select">
-    <select id="${1}">
+    <select id="${1}" name="${1}">
         <option value="${2}">${3:Select dropdown}</option>
         <option value="${4}">${5:With options}</option>
     </select>
