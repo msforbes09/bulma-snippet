@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<a class="button ${1:is-primary}">${2:Button}</a>
+]]></content>
+    <tabTrigger>b-link</tabTrigger>
+</snippet>
