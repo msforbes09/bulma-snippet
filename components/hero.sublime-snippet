@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<section class="hero is-${1:primary} is-bold is-fullheight-with-navbar">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title">${2}</p>
+    
+            <p class="subtitle">${3}</p>
+        </div><!-- container -->
+    </div><!-- hero-body -->
+</section><!-- hero -->
+]]></content>
+    <tabTrigger>b-hero</tabTrigger>
+</snippet>
