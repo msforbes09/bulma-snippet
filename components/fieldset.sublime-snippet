@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<div class="field">
+    <label class="label" for="${1}">Title:</label>
+
+    <div class="control has-icons-right">
+        <input type="text" id="${1}" name="${1}" placeholder="Document Title"
+            class="input {{ \$errors->has('${1}') ? ' is-danger' : '' }}"
+            value="{{ old('${1}') }}">
+
+        <span class="icon is-small is-right">
+            <i class="fas fa-icon"></i>
+        </span><!-- icon -->
+    </div><!-- control -->
+
+    <p class="help is-danger">{{ \$errors->first('${1}') }}</p>
+</div><!-- field -->
+]]></content>
+    <tabTrigger>b-fieldset</tabTrigger>
+</snippet>

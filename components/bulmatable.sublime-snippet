@@ -2,18 +2,18 @@
     <content><![CDATA[
 <table class="table is-fullwidth is-bordered is-striped is-hoverable">
     <thead>
-        <tr class="has-background-primary">
-            <th>${1:Title}</th>
-            <th>Title</th>
-            <th>Title</th>
+        <tr class="has-background-grey-light">
+            <th class="has-text-centered">${1:Title}</th>
+            <th class="has-text-centered">Title</th>
+            <th class="has-text-centered">Title</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
-            <td>Data</td>
-            <td>Data</td>
-            <td>Data</td>
+            <td class="has-text-centered">Data</td>
+            <td class="has-text-centered">Data</td>
+            <td class="has-text-centered">Data</td>
         </tr>
     </tbody>
 </table>
