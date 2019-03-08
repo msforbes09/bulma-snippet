@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<my-link class="is-primary is-rounded" ${1:lined="true" }href="" title="">${2}</my-link>
+]]></content>
+    <tabTrigger>my-link</tabTrigger>
+</snippet>
