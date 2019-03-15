@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<div class="dropdown">
+    <div class="dropdown-trigger">
+        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+            <span>${1:Dropdown Button}</span>
+            <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </button>
+    </div><!-- dropdown-trigger -->
+
+    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+        <div class="dropdown-content">
+            <a href="#" class="dropdown-item">
+                ${2:Dropdown item}
+            </a>
+        </div>
+    </div><!-- dropdown-menu -->
+</div><!-- dropdown -->
+]]></content>
+    <tabTrigger>b-dropdown</tabTrigger>
+</snippet>
