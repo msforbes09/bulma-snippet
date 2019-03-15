@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+<div class="field is-horizontal">
+    <div class="field-label is-normal">
+        <label class="label" for="${1}">${2:Label}:</label>
+    </div><!-- field-label -->
+
+    <div class="field-body">
+        <div class="field">
+            <div class="control has-icons-right">
+                <input type="text" id="${1}" name="${1}" placeholder="${2:placeholder}"
+                    class="input {{ \$errors->has('${1}') ? ' is-danger' : '' }}"
+                    value="{{ old('${1}') }}">
+
+                <span class="icon is-small is-right">
+                    <i class="fas fa-icon"></i>
+                </span><!-- icon -->
+            </div><!-- control -->
+
+            <p class="help is-danger">{{ \$errors->first('${1}') }}</p>
+        </div><!-- field -->
+    </div><!-- field-body -->
+</div><!-- field -->
+]]></content>
+    <tabTrigger>b-field-horizontal</tabTrigger>
+</snippet>
