@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 <label class="radio">
-    <input type="radio" id="${1}" name="${1:radio}" value="${2}" checked> ${3:Option1}
+    <input type="radio" name="${1:radio}" value="${2}" checked> ${3:Option1}
 </label>
 
 <label class="radio">
-    <input type="radio" id="${1}" name="${1:radio}" value="${4}"> ${5:Option2}
+    <input type="radio" name="${1:radio}" value="${4}"> ${5:Option2}
 </label>
 ]]></content>
     <tabTrigger>b-radio</tabTrigger>
